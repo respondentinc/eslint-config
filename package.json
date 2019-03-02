@@ -1,6 +1,6 @@
 {
   "name": "@respondent/eslint-config",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "main": ".eslintrc.js",
   "scripts": {
     "test": "eslint . --ignore-pattern '!.eslintrc.js'"

@@ -11,7 +11,7 @@ The base ESLint configuration used at Respondent.
 - Extend from it in your local `.eslintrc` file and set the proper environment
 
       {
-        "extend": "@respondent"
+        "extends": "@respondent"
         "env": {
             "node": true,
             "mocha": true
