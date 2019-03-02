@@ -1,0 +1,14 @@
+{
+  "name": "@respondent/eslint-config",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "eslint . --ignore-pattern '!.eslintrc.js'"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1"
+  }
+}
