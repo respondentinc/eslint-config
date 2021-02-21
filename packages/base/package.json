@@ -1,7 +1,11 @@
 {
-  "name": "eslint-config-respondent-base",
+  "name": "eslint-config-respondent",
   "version": "1.0.0",
   "description": "Base Eslint config for Respondent.io",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/respondentinc/eslint-config"
+	},
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

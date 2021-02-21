@@ -2,6 +2,10 @@
   "name": "eslint-config-respondent-typescript",
   "version": "1.0.0",
   "description": "Typescript eslint config for Respondent.io",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/respondentinc/eslint-config"
+	},
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
