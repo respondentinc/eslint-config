@@ -1,7 +1,6 @@
 module.exports = {
 	extends: [
-		'eslint-config-respondent-base',
-		'@typescript-eslint/eslint-config',
+		'airbnb-typescript/base',
+		'respondent-base',
 	],
-	parser: '@typescript-eslint/parser',
 };
