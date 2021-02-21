@@ -47,3 +47,22 @@ And in your `.eslintrc` file, put:
 	"extends": ["respondent-vue"]
 }
 ```
+
+## Github's ridiculous tab width
+
+You may notice that this config uses tabs instead of spaces. This is great for accessibility because it allows each developer to configure their editor to use the tab size that is easiest for them to read. 
+
+The downside here is that Github displays tabs as 8 spaces. To make it so that your code is still legible on Github, include a [.editorconfig](https://editorconfig.org/) file in your project with the following:
+
+```
+root = true
+
+[*.{js,vue,ts,html,css,scss}]
+charset = utf-8
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+```
