@@ -1,7 +1,7 @@
 module.exports = {
 	extends: [
 		'plugin:vue/recommended',
-		'./index.js',
+		require.resolve('./index.js'),
 	],
 	plugins: [
 		'vuetify',
