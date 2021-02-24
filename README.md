@@ -10,7 +10,7 @@ The config does not come along with its own dependencies and instead relies on p
 
 To get started with the base JS config, run:
 
-`$ npx install-peerdeps --dev eslint-config-respondent`
+`$ npm i -D respondentinc/eslint-config eslint-config-airbnb-base eslint-plugin-import`
 
 And in your `.eslintrc` file, put:
 
@@ -24,7 +24,14 @@ And in your `.eslintrc` file, put:
 
 For Typescript applications, run:
 
-`$ npx install-peerdeps --dev eslint-config-respondent-typescript`
+```
+$ npm i -D respondentinc/eslint-config \
+    eslint-config-airbnb-base \
+    eslint-plugin-import \
+    eslint-config-airbnb-typescript \
+    @typescript-eslint/eslint-plugin \
+    @typescript-eslint/parser 
+```
 
 And in your `.eslintrc` file, put:
 
@@ -38,7 +45,13 @@ And in your `.eslintrc` file, put:
 
 For Vue applications, run:
 
-`$ npx install-peerdeps --dev eslint-config-respondent-vue`
+```
+$ npm i -D respondentinc/eslint-config \
+    eslint-config-airbnb-base \
+    eslint-plugin-import \
+    eslint-plugin-vue \
+    eslint-plugin-vuetify
+```
 
 And in your `.eslintrc` file, put:
 
