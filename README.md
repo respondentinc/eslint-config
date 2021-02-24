@@ -37,7 +37,7 @@ And in your `.eslintrc` file, put:
 
 ```json
 {
-	"extends": ["respondent-typescript"]
+	"extends": ["respondent/typescript"]
 }
 ```
 
@@ -57,7 +57,7 @@ And in your `.eslintrc` file, put:
 
 ```json
 {
-	"extends": ["respondent-vue"]
+	"extends": ["respondent/vue"]
 }
 ```
 
