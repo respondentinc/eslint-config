@@ -1,6 +1,6 @@
 module.exports = {
 	extends: [
 		'airbnb-typescript/base',
-		'respondent',
+		'./index.js',
 	],
 };

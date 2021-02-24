@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config-respondent-mono",
+  "name": "eslint-config-respondent",
   "version": "1.0.0",
   "description": "Respondent.io eslint configs",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/respondentinc/eslint-config"
-	},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/respondentinc/eslint-config"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,9 +18,19 @@
     "@typescript-eslint/parser": "^4.15.1",
     "eslint": "^7.20.0",
     "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-vue": "^7.6.0",
-    "eslint-plugin-vuetify": "^1.0.0-beta.8",
-    "typescript": "^4.1.5"
+    "eslint-plugin-vuetify": "^1.0.0-beta.8"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-vue": "^7.6.0",
+    "eslint-plugin-vuetify": "^1.0.0-beta.8"
   }
 }
