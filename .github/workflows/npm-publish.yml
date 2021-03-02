@@ -16,7 +16,6 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/respondentinc
-          access: public
-      - run: npm publish --registry=https://npm.pkg.github.com/respondentinc
+      - run: npm publish --registry=https://npm.pkg.github.com/respondentinc --access=public
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
