@@ -10,7 +10,7 @@ The config does not come along with its own dependencies and instead relies on p
 
 To get started with the base JS config, run:
 
-`$ npm i -D respondentinc/eslint-config eslint-config-airbnb-base eslint-plugin-import`
+`$ npm i -D @respondentinc/eslint-config eslint-config-airbnb-base eslint-plugin-import`
 
 And in your `.eslintrc` file, put:
 
@@ -25,7 +25,7 @@ And in your `.eslintrc` file, put:
 For Typescript applications, run:
 
 ```
-$ npm i -D respondentinc/eslint-config \
+$ npm i -D @respondentinc/eslint-config \
     eslint-config-airbnb-base \
     eslint-plugin-import \
     eslint-config-airbnb-typescript \
@@ -46,7 +46,7 @@ And in your `.eslintrc` file, put:
 For Vue applications, run:
 
 ```
-$ npm i -D respondentinc/eslint-config \
+$ npm i -D @respondentinc/eslint-config \
     eslint-config-airbnb-base \
     eslint-plugin-import \
     eslint-plugin-vue \
