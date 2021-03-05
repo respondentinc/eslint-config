@@ -7,6 +7,7 @@ module.exports = {
 		'import/prefer-default-export': 'off',
 	},
 	plugins: [
+		'vue',
 		'vuetify',
 	],
 };
