@@ -5,6 +5,13 @@ module.exports = {
 	],
 	rules: {
 		'import/prefer-default-export': 'off',
+		'vue/html-indent': ['error', 'tab', {
+			'attribute': 1,
+			'baseIndent': 1,
+			'closeBracket': 0,
+			'alignAttributesVertically': true,
+			'ignores': []
+		}]
 	},
 	plugins: [
 		'vue',
