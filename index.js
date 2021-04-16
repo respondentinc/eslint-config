@@ -7,7 +7,7 @@ module.exports = {
 	globals: { jest: 'readonly' },
 	rules: {
 		'consistent-return': 0,
-		indent: [2, 'tab'],
+		indent: [2, 'tab', { 'SwitchCase': 1 }],
 		'no-tabs': 0,
 		'no-param-reassign': 0,
 		'no-underscore-dangle': 0,
